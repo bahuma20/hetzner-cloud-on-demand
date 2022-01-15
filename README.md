@@ -41,6 +41,6 @@ node index.js start
 
 This command will:
 1. Create servers for all snapshots in the project, using the smallest possible server type from config
-2. Rescale all servers to the server type from config
+2. Rescale all servers to the server type from config, without increasing disk size
 3. Add one DNS record for each server in the zone and with the suffix specified in config
 4. ! Delete all other DNS A-records from this zone, that have the specified suffix.
